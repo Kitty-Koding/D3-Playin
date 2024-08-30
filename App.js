@@ -1,4 +1,5 @@
 window.alert("connected!")
+document.getElementById("hi").textContent="Hi";
 
 const DummyData = [
     {id:'d1',value:10,region:'USA'},
