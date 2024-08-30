@@ -9,30 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="image/x-icon" href="favicon.svg">
     <link rel="stylesheet" type="text/css" href="Style.css">
-    <script src="https://d3js.org/d3.v5.min.js" type="text/JavaScript"></script>
-    <script type="text/JavaScript">window.alert("connected!")
-        document.getElementById("hi").textContent="Hi";
-        
-        const DummyData = [
-            {id:'d1',value:10,region:'USA'},
-            {id:'d2',value:1,region:'China'},
-            {id:'d3',value:5,region:'India'},
-            {id:'d4',value:12,region:'Spain'},
-          ];
-          
-        const container = d3.select('svg')
-            .classed('container', true)
-            .style('border','1px solid black');
-        
-        const bars = container
-            .selectAll('.bar')
-            .data(DummyData)
-            .enter()
-            .append('div')
-            .classed('bar', true)
-            .style('width',250/DummyData.length+1+"px")
-            .style('height',data => (data.value * 15)+'px');
-        </script>
+    <script src="https://d3js.org/d3.v5.min.js" type="text/JavaScript" defer></script>
+    <script src="App.js" type="text/JavaScript" defer></script>
 </head>
 <body>
     <h1 id="hi">Hello</h1>

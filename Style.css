@@ -6,9 +6,7 @@ body{
 .container{
     width:250px;
     height:200px;
-    display:flex;
-    justify-content: space-around;
 }
 .bar{
-    background: #ffd000;
+    background-color: black;
 }
