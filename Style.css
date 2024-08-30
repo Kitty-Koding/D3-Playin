@@ -3,3 +3,12 @@ body{
     color: #355070;
     font-family: "Open Sans", sans-serif;
 }
+.container{
+    width:250px;
+    height:200px;
+    display:flex;
+    justify-content: space-around;
+}
+.bar{
+    background: #ffd000;
+}
