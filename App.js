@@ -1,3 +1,5 @@
+window.alert("connected!")
+
 const DummyData = [
     {id:'d1',value:10,region:'USA'},
     {id:'d2',value:1,region:'China'},
