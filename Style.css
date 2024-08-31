@@ -6,6 +6,7 @@ body{
 .container{
     width:250px;
     height:200px;
+    border: #355070 1px solid;
 }
 .bar{
     background-color: black;
